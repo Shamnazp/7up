@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    width: 100%;
+    background-color: rgb(247, 154, 131);
+    padding: 5px;
+    position: fixed; /* Make header fixed at the top */
+    top: 0; /* Align to the top of the page */
+    z-index: 1000; /* Ensures header stays above other content */
+    border-bottom: 2px solid white;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+    gap: 20px;    
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header .logo {
+    margin-right: auto; 
+}
+
+
+header .nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    margin-left: auto;                  
+}
+
+    
+
+.photos img {
+    width: 25px; 
+    height: auto; 
+    max-width: 100%; 
+}
+
+.contact-box {
+    background-color: #000; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center; 
+    width: 100%; 
+    margin: 0 auto; 
+    
+}
+
+.contact-box p {
+    margin: 10px 0; 
+}
+
+
+
+
+.image-container {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Position above the button */
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* White color to stand out */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-overlay {
+    position: absolute;
+    top: 65%; /* Slightly below the text */
+    left: 15%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0); /* Matches the image color */
+    color: #fff; /* White text color */
+    font-size: 18px;
+    font-weight: bold;
+
+    border: 2px solid #fff; /* White border */
+    cursor: pointer;
+    border-radius: 999px; /* Full curve */
+    transition: background-color 0.3s;
+}
+
+.btn-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+}
+
+
+
+
+
+
+.image-with-buttons {
+    position: relative; /* Allow positioning of absolute elements within this image */
+}
+
+.large-button-container {
+    position: absolute;
+    top: 50%; /* Adjust as needed to position correctly */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the button */
+    text-align: center; /* Center-align buttons inside the container */
+}
+
+.btn-large {
+    padding: 80px 80px;  
+    background-color:rgba(10, 91, 43, 0.8); 
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold; /* Make text bold */
+    
+    border: none;
+    border-radius: 999px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn-small {
+    margin-top: 20px; /* Space it below the main text */
+    padding: 10px 20px;
+   
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold; /* Make text bold */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0); /* Light color for contrast */
+    border: 1px solid #fff;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 10px; /* Positioning at the bottom of the large button */
+    left: 50%;
+    transform: translateX(-50%); /* Center-align smaller button horizontally */
+}
+
+
+
+
+
+
+.image-with-buttons {
+    position: relative; /* Allow positioning of absolute elements within this image */
+}
+
+.large-button-container-zero {
+    position: absolute;
+    top: 50%; /* Adjust as needed to position correctly */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the button */
+    text-align: center; /* Center-align buttons inside the container */
+}
+
+.btn-large-zero {
+    padding: 80px 80px;  
+    background-color:rgba(10, 91, 43, 0.8); 
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold; /* Make text bold */
+
+    border: none;
+    border-radius: 999px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn-small-zero {
+    margin-top: 20px; /* Space it below the main text */
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold; /* Make text bold */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0); /* Light color for contrast */
+    border: 1px solid #fff;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 10px; /* Positioning at the bottom of the large button */
+    left: 50%;
+    transform: translateX(-50%); /* Center-align smaller button horizontally */
+}
+
+
+
+
+
+
+
